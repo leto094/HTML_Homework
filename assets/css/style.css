@@ -1,0 +1,147 @@
+@font-face {
+    font-family:Amatic;
+    src: url('/assets/fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+    font-family:PoiretOne-Regular;
+    src: url('/assets/fonts/PoiretOne-Regular.ttf');
+}
+
+ /* html, body{
+    background-image: url('/assets/img/back.webp');
+    background-repeat: initial;
+    
+ } */
+    
+
+h1{
+    font-family: Amatic;
+    font-size: 76px;
+    margin: 52px 103px 57px 26px;
+}
+
+h2{
+    font-family: PoiretOne-Regular;
+    font-size: 19px;
+    font-style: normal;
+    margin-left: 3%;
+    margin-right: 40%;
+    margin-inline: 15%;
+}
+
+p, li{
+    font-family: PoiretOne-Regular;
+    font-size: 18px;
+    margin: 2%;
+}
+
+h3{
+    font-family: Amatic;
+    font-size: 40px;
+}
+
+h4{
+    font-family: Amatic;
+    font-size: 50px;
+    margin: 38px 10px 23px 150px;
+}
+
+p1{
+    font-family: PoiretOne-Regular;
+    font-size: 26px;
+    font-style: bold;
+    margin: 6%;
+}
+
+p2{
+    font-family: PoiretOne-Regular;
+    font-size: 18px;
+}
+
+p3{
+    font-family: Amatic;
+    font-size: 20px;
+    
+}
+
+
+header{
+    /* меняем местоположение элементов в шапке страницы */
+    display: flex; 
+    /* чтобы были в форме строки */
+    flex-direction: row; 
+    /* двигает элементы: + копируем со страницы значения и вставляем, чтобы зафиксировать элементы*/
+    margin: 20px 7px 8px 62px;
+    /* добавляем отступы */
+    padding: 11px 1px 1px 16px;
+    /* сами отступы можно менять уже на сайте f12 */
+}
+
+/* когда класс . когда id # */
+
+.logo{
+    /* ширина: */
+    width: 80px;
+    height: 80px;
+    /* отсступ для самого логотипа: */
+    margin: 35px 55px 79px 30px;
+}
+
+.logo img{
+    /* размер логотипа на старнице: */
+    width: 305px;
+    height: 306px;
+    /* двигаем о диагонали: */
+    margin: -105px;
+}
+
+nav{
+    /* блок навигации */
+    display: flex;
+    /* Направление */
+    flex-direction: row;
+    list-style-type: none;
+    /* отступы: */
+    padding: 19px 10px 4px -25px;
+}
+
+nav li{
+    /* background-color: brown; */
+    padding: 30px 21px 65px 15px;
+}
+
+img{
+    margin: 52px 103px 57px 26px;
+}
+
+.sidebar{
+    /* положение: */
+     float: right;
+     margin-top: -28%;
+     margin-left: 5%;
+     
+ }
+
+ img{
+    width: 48%;
+    margin-left: 6%;
+    margin-right: 46%;
+    margin-top: 8%;
+ }
+
+conteiner{
+    margin-right: 56%;
+    margin-inline-end: 40%;
+    
+}
+    
+
+ .text_link:hover{
+    color: blueviolet;
+ }
+
+/* body{
+    background-image: url('/assets/img/back.webp');
+    background-size: contain;
+} */
