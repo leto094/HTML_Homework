@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script language="JavaScript">
+// Создайте всплывающее окно, которое спрашивает ввод любимого фильма и если ввод неверен, 
+// то программа отправляет запрос alert “Попробуйте ещё раз”. В функции должны быть минимум 2 условия. 
+// Не просто использовуйте prompt или alert или confirm, а создайте свою функцию, пример: 
+// "function Вашеимяфункциитут()"‼️
+alert(`Добрый день!`);
+let cinema = prompt(`Напишите название вашего любимого фильма кириллицей`);
+
+function FavouriteFilm(cinema){
+    switch (cinema){
+        case `Терминатор`:
+        case `терминатор`:
+            alert(`Мне нужна твоя одежда, сапоги и мотоцикл`);
+            break;
+        case `Титаник`:
+        case `титаник`:
+            alert(`Нарисуй меня, как одну из своих француженок`);
+            break;
+        case`Три мушкетера`:
+        case`три мушкетера`:
+            alert(`Тысяча чертей! or Каналья!`);
+            break;
+        default:
+            alert(`Да что ж, ты за человек такой? Карамба!`);
+            break;
+    } 
+        if (confirm(`Сериалы?`)){
+            alert(`Сериалы — это не шаг назад и не шаг в сторону. Это просто еще один шаг.`);
+            } else {
+                alert(`Когда люди слишком заряжены эмоционально, они ведут себя как актёры в дешёвых сериалах, а не в хороших фильмах от хороших режиссёров.`);
+                } 
+                         
+}
+FavouriteFilm(cinema)
+
+    </script>
+</body>
+</html>
